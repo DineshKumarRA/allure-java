@@ -22,7 +22,7 @@ dependencies {
     testImplementation("io.grpc:grpc-netty-shaded:$grpcVersion")
     testImplementation("io.grpc:grpc-protobuf:$grpcVersion")
     testImplementation("io.grpc:grpc-stub:$grpcVersion")
-    testImplementation("javax.annotation:javax.annotation-api")
+    testImplementation("jakarta.annotation:jakarta.annotation-api")
     testImplementation("org.assertj:assertj-core")
     testImplementation("org.grpcmock:grpcmock-junit5")
     testImplementation("org.junit.jupiter:junit-jupiter-api")
