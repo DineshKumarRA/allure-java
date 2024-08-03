@@ -159,7 +159,7 @@ configure(libs) {
             dependency("commons-io:commons-io:2.16.1")
             dependency("io.github.benas:random-beans:3.9.0")
             dependency("io.github.glytching:junit-extensions:2.6.0")
-            dependency("javax.annotation:javax.annotation-api:1.3.2")
+            dependency("jakarta.annotation:jakarta.annotation-api:3.0.0")
             dependency("net.sourceforge.pmd:pmd-java:7.4.0")
             dependency("org.apache.commons:commons-lang3:3.15.0")
             dependency("org.aspectj:aspectjrt:${assertJVersion}")
