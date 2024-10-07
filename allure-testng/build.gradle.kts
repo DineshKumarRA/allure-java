@@ -1,6 +1,6 @@
 description = "Allure TestNG Integration"
 
-val testNgVersion = "6.14.3"
+val testNgVersion = "7.10.2"
 
 dependencies {
     api(project(":allure-java-commons"))

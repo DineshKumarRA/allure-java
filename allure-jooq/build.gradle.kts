@@ -1,6 +1,6 @@
 description = "Allure JOOQ Integration"
 
-val jooqVersion = "3.19.10"
+val jooqVersion = "3.19.13"
 
 dependencies {
     api(project(":allure-java-commons"))
@@ -11,12 +11,12 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testImplementation("org.mockito:mockito-core")
     testImplementation("org.slf4j:slf4j-simple")
-    testImplementation(platform("io.zonky.test.postgres:embedded-postgres-binaries-bom:16.2.0"))
+    testImplementation(platform("io.zonky.test.postgres:embedded-postgres-binaries-bom:17.0.0"))
     testImplementation(project(":allure-assertj"))
     testImplementation(project(":allure-java-commons-test"))
     testImplementation(project(":allure-junit-platform"))
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
-    testRuntimeOnly("org.postgresql:postgresql:42.7.3")
+    testRuntimeOnly("org.postgresql:postgresql:42.7.4")
 }
 
 tasks.compileJava {

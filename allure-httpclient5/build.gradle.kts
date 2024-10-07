@@ -1,6 +1,6 @@
 description = "Allure Apache HttpClient5 Integration"
 
-val httpClient5Version = "5.3.1";
+val httpClient5Version = "5.4";
 
 dependencies {
     api(project(":allure-attachments"))

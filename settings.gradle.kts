@@ -48,21 +48,21 @@ pluginManagement {
     plugins {
         id("com.diffplug.spotless") version "6.25.0"
         id("io.github.goooler.shadow") version "8.1.8"
-        id("com.gradle.enterprise") version "3.17.5"
+        id("com.gradle.enterprise") version "3.18.1"
         id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
-        id("io.qameta.allure-adapter") version "2.11.2"
-        id("io.qameta.allure-aggregate-report") version "2.11.2"
-        id("io.qameta.allure-download") version "2.11.2"
-        id("io.qameta.allure-report") version "2.11.2"
+        id("io.qameta.allure-adapter") version "2.12.0"
+        id("io.qameta.allure-aggregate-report") version "2.12.0"
+        id("io.qameta.allure-download") version "2.12.0"
+        id("io.qameta.allure-report") version "2.12.0"
         id("io.spring.dependency-management") version "1.1.6"
         id("com.google.protobuf") version "0.9.4"
-        id("com.github.spotbugs") version "6.0.19"
+        id("com.github.spotbugs") version "6.0.24"
         kotlin("jvm") version "2.0.0"
     }
 }
 
 plugins {
-    id("com.gradle.develocity") version "3.17.5" apply false
+    id("com.gradle.develocity") version "3.18.1" apply false
 }
 
 val isCiServer = System.getenv().containsKey("CI")
