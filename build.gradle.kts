@@ -7,7 +7,7 @@ val spotlessDtr by extra("$qualityConfigsDir/spotless")
 val libs = subprojects.filterNot { it.name in "allure-bom" }
 
 tasks.withType(Wrapper::class) {
-    gradleVersion = "8.10.2"
+    gradleVersion = "8.5"
 }
 
 plugins {
