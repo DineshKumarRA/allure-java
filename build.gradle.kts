@@ -141,36 +141,36 @@ configure(libs) {
     apply(plugin = "java")
     apply(plugin = "java-library")
 
-    val orgSlf4jVersion = "2.0.13"
-    val assertJVersion = "1.9.22.1"
+    val orgSlf4jVersion = "2.0.16"
+    val aspectJVersion = "1.9.22.1"
 
     dependencyManagement {
         imports {
-            mavenBom("com.fasterxml.jackson:jackson-bom:2.17.2")
-            mavenBom("org.junit:junit-bom:5.10.3")
+            mavenBom("com.fasterxml.jackson:jackson-bom:2.18.0")
+            mavenBom("org.junit:junit-bom:5.11.2")
         }
         dependencies {
             dependency("com.github.spotbugs:spotbugs:4.8.6")
             dependency("com.github.tomakehurst:wiremock:3.0.1")
             dependency("com.google.inject:guice:7.0.0")
             dependency("com.google.testing.compile:compile-testing:0.21.0")
-            dependency("com.puppycrawl.tools:checkstyle:10.17.0")
+            dependency("com.puppycrawl.tools:checkstyle:10.18.2")
             dependency("com.squareup.retrofit2:retrofit:2.11.0")
-            dependency("commons-io:commons-io:2.16.1")
+            dependency("commons-io:commons-io:2.17.0")
             dependency("io.github.benas:random-beans:3.9.0")
             dependency("io.github.glytching:junit-extensions:2.6.0")
             dependency("javax.annotation:javax.annotation-api:1.3.2")
             dependency("net.sourceforge.pmd:pmd-java:7.4.0")
-            dependency("org.apache.commons:commons-lang3:3.15.0")
-            dependency("org.aspectj:aspectjrt:${assertJVersion}")
-            dependency("org.aspectj:aspectjweaver:${assertJVersion}")
+            dependency("org.apache.commons:commons-lang3:3.17.0")
+            dependency("org.aspectj:aspectjrt:${aspectJVersion}")
+            dependency("org.aspectj:aspectjweaver:${aspectJVersion}")
             dependency("org.assertj:assertj-core:3.26.3")
             dependency("org.freemarker:freemarker:2.3.33")
             dependency("org.grpcmock:grpcmock-junit5:0.8.0")
             dependency("org.hamcrest:hamcrest:3.0")
-            dependency("org.jboss.resteasy:resteasy-client:6.2.9.Final")
+            dependency("org.jboss.resteasy:resteasy-client:6.2.10.Final")
             dependency("org.mock-server:mockserver-netty:5.15.0")
-            dependency("org.mockito:mockito-core:5.12.0")
+            dependency("org.mockito:mockito-core:5.14.1")
             dependency("org.slf4j:slf4j-api:${orgSlf4jVersion}")
             dependency("org.slf4j:slf4j-nop:${orgSlf4jVersion}")
             dependency("org.slf4j:slf4j-simple:${orgSlf4jVersion}")
